@@ -1,6 +1,9 @@
-# React/Firebase/Redux
+# Loginコンポーネント
+- React,TypeScript,ReduxToolkit,Firebaseを用いたLogin用コンポーネント
 
-## skil
+## React/Firebase/Redux
+
+### skil
 
 - React
   > React hook
