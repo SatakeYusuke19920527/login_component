@@ -11,7 +11,7 @@ const App: React.FC<{}> = () => {
   const user = useSelector(selectUser);
   const dispatch = useDispatch();
   useEffect(() => {
-    const unSub = auth.onAuthStateChanged((authUser) => {
+    const unSub = auth.onAuthStateChanged((authUser:any) => {
       if (authUser) {
         dispatch(
           login({
